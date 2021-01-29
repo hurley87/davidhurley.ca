@@ -43,59 +43,49 @@ const FullTimeline = () => (
     <Divider />
     <Year>2018</Year>
     <ul>
-      <Step title="Start at Planswell">
-        Started as a developer and transitioned to Head of Growth.
-      </Step>
       <Step title="Moved in with Hayley">
-        This was a no brainer. Love spending time with Hayley and our cute pup,
-        Mikey.
+        I love spending time with her and our cute pup, Mikey.
       </Step>
-      <Step title="Burning man 🤘🏻">
-        A week long adventure into the desert. I won the Lee Harvey road hockey
-        tournament with my good buddy Dan.
+      <Step title="Head of Growth at Planswell">
+        Helped over 200,000 Canadians get access to a free financial plan.
+      </Step>
+      <Step title="Burning Man 🤘🏻">
+        My good buddy Dan and I won the Lee Harvey road hockey tournament.
       </Step>
     </ul>
     <Divider />
     <Year>2016</Year>
     <ul>
-      <Step title="Started at #paid 🔥">
-        My first job as a software developer.
+      <Step title="Developer at #paid 🔥">
+        Helped build an influencer marketing platform. Great team.
       </Step>
-      <Step title="Influencer algorithm">
-        I created an alogorithm that predicted how much an influencer should
-        charge for a sponsored post.
+      <Step title="Europe Trip">
+        Spent a week in London and Paris with my brother and Dad.
       </Step>
     </ul>
     <Divider />
-    <Year>2015</Year>
+    <Year>2014</Year>
     <ul>
-      <Step title="Moved to Toronto">Moved back to the big city.</Step>
-      <Step title="Quit my sales job at Top Hat">
-        I learned a lot about sales and met some life long friends here.
-      </Step>
       <Step title="Bitmaker's 7th Cohort">
-        I started my transition from sales rep to software developer.
+        First time I was able to code with firends.
+      </Step>
+      <Step title="Top Hat">
+        The last sales job I had before becoming a developer.
       </Step>
     </ul>
     <Divider />
-    <Year>2009</Year>
+    <Year>2010</Year>
     <ul>
-      <Step title="Graduated Queen's University">
-        Went to school in Kingston, I'm a proud townie.
-      </Step>
-      <Step title="Won the Jr. C Championship 🏆">
-        I was captain of a local hockey team called the Jets.
-      </Step>
-      <Step title="First job">
-        I got my first job selling cars at a Chrysler dealership in Ottawa. It's
-        a long story.
+      <Step title="Graduated Queen's University">I'm a proud townie.</Step>
+      <Step title="Won the Championship 🏆">
+        My hockey career ended that day. Good times.
       </Step>
     </ul>
     <Divider />
-    <Year>1999</Year>
+    <Year>2000</Year>
     <ul>
-      <Step title="First Computer">
-        I remember many nights playing Halo and Doom with my brother.
+      <Step title="First Computer Games">
+        I remember many nights playing Half-life and Quake with my brother.
       </Step>
     </ul>
     <Divider />
@@ -112,23 +102,27 @@ export default function Timeline() {
   return (
     <>
       <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
-        Timeline
+        Highlights
       </h3>
       <Year>2020</Year>
       <ul>
-        <Step title="Got Engaged 💍">
-          I asked my now fiancée, Hayley, to marry me. She said yes!
-        </Step>
-        <Step title="Conversify reaches 10K MRR ✨">
-          Over 100 happy customers and I was able to start payiny myself.
-        </Step>
-        <Step title="Graduated from the Next AI program ⚛️">
-          This was a challenging 6 month program that helped us turn our idea
-          into a business.
+        <Step title="Got Engaged 💍">I asked Hayley and she said yes!</Step>
+        <Step title="Conversify Reaches 10K MRR ✨">
+          Published my first{' '}
+          <span className="prose">
+            <a
+              href="https://huggingface.co/conversify/response-score"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              ML model
+            </a>
+          </span>{' '}
+          and graduated from Next AI.
         </Step>
         <Step title="Travelled to the Middle East">
-          I spent time in Dubai and Instanbul meeting other people that work in
-          tech.
+          Spent a couple weeks meeting with startup founders in Dubai and
+          Instanbul with Hamza.
         </Step>
       </ul>
       {isShowingFullTimeline ? (
