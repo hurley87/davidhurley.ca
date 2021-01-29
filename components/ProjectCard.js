@@ -2,8 +2,8 @@ import * as Fathom from 'fathom-client';
 
 const trackGoal = (title) => {
   const goalCodes = {
-    'Sales Captain': '5WGDOKV0',
-    Conversify: 'MQOBUTOP'
+    'Sales Captain': 'MQOBUTOP',
+    Conversify: 'RNO19J1J'
   };
 
   Fathom.trackGoal(goalCodes[title], 0);
