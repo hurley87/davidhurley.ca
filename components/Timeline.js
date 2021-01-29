@@ -60,7 +60,7 @@ const FullTimeline = () => (
         Helped build an influencer marketing platform. Great team.
       </Step>
       <Step title="Europe Trip">
-        Spent a week in London and Paris with my brother and Dad.
+        Spent a couple weeks in London and Paris with my brother and Dad.
       </Step>
     </ul>
     <Divider />

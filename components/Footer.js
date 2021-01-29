@@ -38,16 +38,12 @@ export default function Footer() {
           </ExternalLink>
         </div>
         <div className="flex flex-col space-y-4">
-          <Link href="/substacks">
-            <a className="text-gray-500 hover:text-gray-600 transition">
-              Substacks
-            </a>
-          </Link>
-          <Link href="/books">
-            <a className="text-gray-500 hover:text-gray-600 transition">
-              Books
-            </a>
-          </Link>
+          <ExternalLink href="https://www.conversify.ai/">
+            Conversify
+          </ExternalLink>
+          <ExternalLink href="https://salescaptain.ai/">
+            Sales Captain
+          </ExternalLink>
         </div>
       </div>
     </footer>
