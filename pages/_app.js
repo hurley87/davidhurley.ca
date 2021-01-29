@@ -1,7 +1,19 @@
-import '../styles/global.css';
+import '@/styles/global.css';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+import { MDXProvider } from '@mdx-js/react';
+import { ThemeProvider } from 'next-themes';
+
+import MDXComponents from '@/components/MDXComponents';
+import { useAnalytics } from '@/lib/analytics';
+
+export default function App({ Component, pageProps }) {
+  useAnalytics();
+
+  return (
+    <ThemeProvider attribute="class">
+      <MDXProvider components={MDXComponents}>
+        <Component {...pageProps} />
+      </MDXProvider>
+    </ThemeProvider>
+  );
 }
-
-export default MyApp;
