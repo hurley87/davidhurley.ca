@@ -67,7 +67,7 @@ const FullTimeline = () => (
     <Year>2014</Year>
     <ul>
       <Step title="Bitmaker's 7th Cohort">
-        First time I was able to code with firends.
+        First time I was able to code with friends.
       </Step>
       <Step title="Top Hat">
         The last sales job I had before becoming a developer.
