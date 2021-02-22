@@ -1,10 +1,11 @@
 import Container from '@/components/Container';
 import TopTracks from '@/components/TopTracks';
+import Subscribe from '@/components/Subscribe';
 
 export default function About() {
   return (
     <Container title="About – David Hurley">
-      <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
+      <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-4">
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
           About
         </h1>
@@ -42,6 +43,7 @@ export default function About() {
           Playlist
         </h2>
         <TopTracks />
+        <Subscribe />
       </div>
     </Container>
   );
