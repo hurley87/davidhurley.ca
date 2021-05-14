@@ -13,22 +13,24 @@ export default function About() {
           <p>
             My name is David Hurley. I'm a developer, writer, and the creator
             of&nbsp;
-            <a
-              href="https://salescaptain.ai/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Sales Captain
-            </a>
-            &nbsp;and&nbsp;
+            {
+              //   <a
+              //   href="https://salescaptain.ai/"
+              //   target="_blank"
+              //   rel="noopener noreferrer"
+              // >
+              //   Sales Captain
+              // </a>
+              // &nbsp;and&nbsp;
+            }
             <a
               href="https://www.conversify.ai/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Conversify.
+              Conversify
             </a>
-            &nbsp;I work at intersection of growth, software and AI.
+            . &nbsp;I work at intersection of growth, software and AI.
           </p>
           <p>
             I grew up in small-town Kingston and went to school at Queen's

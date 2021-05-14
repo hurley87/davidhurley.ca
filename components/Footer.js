@@ -41,9 +41,11 @@ export default function Footer() {
           <ExternalLink href="https://www.conversify.ai/">
             Conversify
           </ExternalLink>
-          <ExternalLink href="https://salescaptain.ai/">
-            Sales Captain
-          </ExternalLink>
+          {
+            // <ExternalLink href="https://salescaptain.ai/">
+            //   Sales Captain
+            // </ExternalLink>
+          }
         </div>
       </div>
     </footer>
