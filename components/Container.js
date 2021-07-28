@@ -10,7 +10,6 @@ export default function Container(props) {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme('');
 
-  // After mounting, we have access to the theme
   useEffect(() => setMounted(true), []);
 
   const { children, ...customMeta } = props;
@@ -18,7 +17,7 @@ export default function Container(props) {
   const meta = {
     title: 'David Hurley – Developer, writer, creator.',
     description: `Front-end developer, GTP-3 enthusiast, and course creator.`,
-    image: 'https://davidhurley.ca/the-path-to-web3.jpeg',
+    image: 'https://davidhurley.ca/web3_protocols.jpeg',
     type: 'website',
     ...customMeta
   };
@@ -84,6 +83,9 @@ export default function Container(props) {
           )}
         </button>
         <div>
+          <NextLink href="/blog">
+            <a className="p-1 text-gray-900 sm:p-4 dark:text-gray-100">Blog</a>
+          </NextLink>
           <NextLink href="/about">
             <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">About</a>
           </NextLink>

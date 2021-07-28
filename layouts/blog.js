@@ -28,6 +28,7 @@ export default function BlogLayout({ children, frontMatter }) {
             {frontMatter.readingTime.text}
           </p>
         </div>
+        <br />
         <div className="prose dark:prose-dark max-w-none w-full">
           {children}
         </div>

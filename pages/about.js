@@ -11,35 +11,16 @@ export default function About() {
         </h1>
         <div className="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
           <p>
-            My name is David Hurley. I'm a developer, writer, and the creator
-            of&nbsp;
-            {
-              //   <a
-              //   href="https://salescaptain.ai/"
-              //   target="_blank"
-              //   rel="noopener noreferrer"
-              // >
-              //   Sales Captain
-              // </a>
-              // &nbsp;and&nbsp;
-            }
-            <a
-              href="https://www.conversify.ai/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Conversify
-            </a>
-            . &nbsp;I work at intersection of growth, software and AI.
+            My name is David Hurley and I work at intersection of growth,
+            software and AI.
           </p>
           <p>
-            I grew up in small-town Kingston and went to school at Queen's
-            University, barely graduating with a bachelor's degree. I started my
-            tech career in sales before learning how to code. Now I build apps
-            that help people grow their business. I spend my free time watching
-            the Maple Leafs win with my fiance Hayley and our chihuahua, Mikey.
+            I grew up in Kingston and went to school at Queen's University,
+            graduating with a bachelor's degree. I started my tech career in
+            sales before learning how to code. Now I build apps that help people
+            grow their business. I spend my free time watching the Leafs win
+            with my fiance Hayley and our chihuahua, Mikey.
           </p>
-          <p>me@davidhurley.ca</p>
         </div>
         <h2 className="font-bold text-3xl tracking-tight mt-8 text-black dark:text-white">
           Playlist
