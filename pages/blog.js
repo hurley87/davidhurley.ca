@@ -17,11 +17,14 @@ export default function Blog() {
           Thoughts on the crypto, AI and my personal life.
         </p>
         <br />
-        <BlogPost
-          title="$RAPS"
-          summary="Minting a social token called $RAPS and using it to engage the Raptors Republic community."
-          slug="raps"
-        />
+        {
+      //   <BlogPost
+      //   title="$RAPS"
+      //   summary="Minting a social token called $RAPS and using it to engage the Raptors Republic community."
+      //   slug="raps"
+      // />
+        }
+
         <BlogPost
           title="Hue"
           summary="Creating Hue, an online version of a heads up euchre game I invented with my Mom."
