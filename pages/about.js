@@ -22,10 +22,6 @@ export default function About() {
             with my fiance Hayley and our chihuahua, Mikey.
           </p>
         </div>
-        <h2 className="font-bold text-3xl tracking-tight mt-8 text-black dark:text-white">
-          Playlist
-        </h2>
-        <TopTracks />
         <Subscribe />
       </div>
     </Container>

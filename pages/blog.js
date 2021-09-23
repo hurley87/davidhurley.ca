@@ -14,16 +14,9 @@ export default function Blog() {
           Blog
         </h1>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
-          Thoughts on the crypto, AI and my personal life.
+          Thoughts on crypto, AI and my personal life.
         </p>
         <br />
-        {
-      //   <BlogPost
-      //   title="$RAPS"
-      //   summary="Minting a social token called $RAPS and using it to engage the Raptors Republic community."
-      //   slug="raps"
-      // />
-        }
 
         <BlogPost
           title="Hue"
