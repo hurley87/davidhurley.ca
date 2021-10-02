@@ -1,5 +1,4 @@
 import Container from '@/components/Container';
-import TopTracks from '@/components/TopTracks';
 import Subscribe from '@/components/Subscribe';
 
 export default function About() {
